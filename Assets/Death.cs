@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Death : MonoBehaviour
 {
-    [SerializeField] private Transform Player;
-    [SerializeField] private Transform respawnPoint;
+    public string Level_1;
 
-    private void OnTriggerEnter(Collider other)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Player.transform.position = respawnPoint.transform.position; 
+        if (collision.tag == "Player")
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(Level_1);
+        }   
     }
 }

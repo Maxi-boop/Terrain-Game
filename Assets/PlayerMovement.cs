@@ -6,18 +6,18 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
 
+    public GameObject Coin; 
+    public string Level_2; 
     public float moveSpeed = 10f;
     public float jumpPower = 10f;
-    public TMPro.TextMeshProUGUI text; 
-    float jumpsLeft = 5f; 
+    public float StartingJumps = 3f;
+    public float coinsNeeded = 2f;
+    float coins = 0f;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        text = GetComponentInChildren<TMPro.TextMeshProUGUI>();
-        string initialText = text.text;
-        text.text = "JumpsLeft: 5"; 
     }
 
     // Update is called once per frame
@@ -29,12 +29,29 @@ public class PlayerMovement : MonoBehaviour
         }
         if(Input.GetButtonDown("Jump"))
         {
-            if(jumpsLeft > 0)
+            if(StartingJumps > 0)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpPower);
-                jumpsLeft -= 1f;
-                text.text = "JumpsLeft: " + jumpsLeft.ToString();
+                StartingJumps -= 1f;
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "CoinTwo")
+        {
+            coins += 1f;
+            Destroy(collision);
+            Coin.SetActive(false);
+        }
+        if (collision.tag == "Finish")
+        {
+            if (coins >= coinsNeeded)
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene(Level_2);
+            }
+
         }
     }
 }
