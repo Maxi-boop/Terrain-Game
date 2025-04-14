@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 967852984967886329}
   - component: {fileID: 2323406421063347319}
   - component: {fileID: 380850061848170608}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 6702050677468054442}
   - component: {fileID: 8471455324896904159}
   - component: {fileID: 3823754820035148485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -303,7 +303,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8, y: 0.8}
   m_EdgeRadius: 0
 --- !u!61 &6702050677468054442
 BoxCollider2D:
@@ -400,7 +400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4163024158599686757}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -30,7 +30,7 @@ public class MultipyScript : MonoBehaviour
         }
         if (collision.gameObject.tag == "Coin")
         {
-            hasTouchedCoin = true;
+           hasTouchedCoin = true;
         }
         if (hasTouchedCoin && hasTouchedPlayer == true)
         {
@@ -40,11 +40,10 @@ public class MultipyScript : MonoBehaviour
                 int myInt = int.Parse(text.text);
                 int product = myInt * notherNum;
                 tf.localScale *= scaleMultiplier; 
+                text.text = product.ToString();
+                Destroy(collision.gameObject, 0.015f);
                 hasTouchedCoin = false;
                 hasTouchedPlayer = false;
-                text.text = product.ToString();
-
-                Destroy(collision.gameObject, 0.1f);
             }
         }    
     }

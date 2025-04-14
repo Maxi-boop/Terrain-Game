@@ -6,11 +6,12 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
 
-    public GameObject Coin; 
+    public GameObject Coin;
+    public GameObject Coin2; 
     public string Level_2; 
     public float moveSpeed = 10f;
     public float jumpPower = 10f;
-    public float StartingJumps = 3f;
+    public float StartingJumps = 5f;
     public float coinsNeeded = 2f;
     float coins = 0f;
 
@@ -41,10 +42,17 @@ public class PlayerMovement : MonoBehaviour
     {
         if(collision.tag == "CoinTwo")
         {
-            coins += 1f;
+            coins =1f;
             Destroy(collision);
             Coin.SetActive(false);
         }
+        if(collision.tag == "Coin2")
+        {
+            coins = 2f;
+            Destroy(collision);
+            Coin2.SetActive(false);
+        }
+
         if (collision.tag == "Finish")
         {
             if (coins >= coinsNeeded)
