@@ -9,6 +9,10 @@ public class PlayerMovementTwo : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
+    public string NextLevel;
+    public string CurrentLevel;
+    public int num = 0;
+
     private Rigidbody2D rb;
     private bool isGrounded;
 
@@ -26,7 +30,6 @@ public class PlayerMovementTwo : MonoBehaviour
         float moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
     }
-
     void Jump()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 1f, groundLayer);
@@ -34,6 +37,17 @@ public class PlayerMovementTwo : MonoBehaviour
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Finish")
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(NextLevel); 
+        }
+        if(other.tag == "Death")
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(CurrentLevel);
         }
     }
 }
