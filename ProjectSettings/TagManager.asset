@@ -3,32 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
   tags: []
-=======
-  tags:
-  - Coin
-  - CoinTwo
-  - Coin2
-  - Death
->>>>>>> DatOneGuy011
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-<<<<<<< HEAD
   - 
   - Water
   - UI
   - 
   - 
-=======
-  - Ground
-  - Water
-  - UI
-  - Blocks
-  - Player
->>>>>>> DatOneGuy011
   - 
   - 
   - 
