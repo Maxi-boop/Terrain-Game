@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
+<<<<<<< HEAD
   productGUID: cfcc5d355a1ffd74c86c4e523dbc526e
+=======
+  productGUID: 5b16d47a27f5b47eca14a31e5714a677
+>>>>>>> DatOneGuy011
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -16,7 +20,11 @@ PlayerSettings:
   productName: Terrain-Game
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
+<<<<<<< HEAD
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+=======
+  m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
+>>>>>>> DatOneGuy011
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
@@ -47,7 +55,11 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
+<<<<<<< HEAD
   m_ActiveColorSpace: 1
+=======
+  m_ActiveColorSpace: 0
+>>>>>>> DatOneGuy011
   unsupportedMSAAFallback: 0
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
@@ -155,17 +167,25 @@ PlayerSettings:
   useHDRDisplay: 0
   hdrBitDepth: 0
   m_ColorGamuts: 00000000
+<<<<<<< HEAD
   targetPixelDensity: 30
+=======
+  targetPixelDensity: 0
+>>>>>>> DatOneGuy011
   resolutionScalingMode: 0
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier: {}
+<<<<<<< HEAD
   buildNumber:
     Standalone: 0
     VisionOS: 0
     iPhone: 0
     tvOS: 0
+=======
+  buildNumber: {}
+>>>>>>> DatOneGuy011
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 22
@@ -184,12 +204,21 @@ PlayerSettings:
   strictShaderVariantMatching: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
+<<<<<<< HEAD
   iOSTargetOSVersionString: 12.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 12.0
   VisionOSSdkVersion: 0
   VisionOSTargetOSVersionString: 1.0
+=======
+  iOSTargetOSVersionString: 
+  tvOSSdkVersion: 0
+  tvOSRequireExtendedGameController: 0
+  tvOSTargetOSVersionString: 
+  VisionOSSdkVersion: 0
+  VisionOSTargetOSVersionString: 
+>>>>>>> DatOneGuy011
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -247,9 +276,15 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
+<<<<<<< HEAD
   clonedFromGUID: c19f32bac17ee4170b3bf8a6a0333fb9
   templatePackageId: com.unity.template.universal-2d@2.1.2
   templateDefaultScene: Assets/Scenes/SampleScene.unity
+=======
+  clonedFromGUID: 00000000000000000000000000000000
+  templatePackageId: 
+  templateDefaultScene: 
+>>>>>>> DatOneGuy011
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
@@ -281,7 +316,11 @@ PlayerSettings:
   AndroidMinifyRelease: 0
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
+<<<<<<< HEAD
   AndroidAppBundleSizeToValidate: 150
+=======
+  AndroidAppBundleSizeToValidate: 200
+>>>>>>> DatOneGuy011
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
   m_BuildTargetBatching: []
@@ -298,6 +337,10 @@ PlayerSettings:
   m_TemplateCustomTags: {}
   mobileMTRendering:
     Android: 1
+<<<<<<< HEAD
+=======
+    VisionOS: 1
+>>>>>>> DatOneGuy011
     iPhone: 1
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality: []
@@ -316,7 +359,11 @@ PlayerSettings:
   locationUsageDescription: 
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
+<<<<<<< HEAD
   macOSTargetOSVersion: 10.13.0
+=======
+  macOSTargetOSVersion: 
+>>>>>>> DatOneGuy011
   switchNMETAOverride: 
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
@@ -441,7 +488,11 @@ PlayerSettings:
   switchSystemResourceMemory: 16777216
   switchSupportedNpadStyles: 22
   switchNativeFsCacheSize: 32
+<<<<<<< HEAD
   switchIsHoldTypeHorizontal: 0
+=======
+  switchIsHoldTypeHorizontal: 1
+>>>>>>> DatOneGuy011
   switchSupportedNpadCount: 8
   switchEnableTouchScreen: 1
   switchSocketConfigEnabled: 0
@@ -454,7 +505,11 @@ PlayerSettings:
   switchSocketBufferEfficiency: 4
   switchSocketInitializeEnabled: 1
   switchNetworkInterfaceManagerInitializeEnabled: 1
+<<<<<<< HEAD
   switchUseNewStyleFilepaths: 0
+=======
+  switchUseNewStyleFilepaths: 1
+>>>>>>> DatOneGuy011
   switchUseLegacyFmodPriorities: 0
   switchUseMicroSleepForYield: 1
   switchEnableRamDiskSupport: 0
@@ -500,7 +555,11 @@ PlayerSettings:
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
+<<<<<<< HEAD
   ps4Passcode: D25bFOIlcWmANChRvUT1ao3Ud48vHsjc
+=======
+  ps4Passcode: Mh7SDnlRQvlNInCTAQiK4M55N5eCoDGR
+>>>>>>> DatOneGuy011
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -551,7 +610,11 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
+<<<<<<< HEAD
   webGLCompressionFormat: 0
+=======
+  webGLCompressionFormat: 1
+>>>>>>> DatOneGuy011
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -569,6 +632,7 @@ PlayerSettings:
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
+<<<<<<< HEAD
   managedStrippingLevel:
     EmbeddedLinux: 1
     GameCoreScarlett: 1
@@ -584,6 +648,9 @@ PlayerSettings:
     XboxOne: 1
     iPhone: 1
     tvOS: 1
+=======
+  managedStrippingLevel: {}
+>>>>>>> DatOneGuy011
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
@@ -671,11 +738,19 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
+<<<<<<< HEAD
   cloudProjectId: 307fe31e-cb25-4a58-b610-75e8443be228
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Terrain-Game
   organizationId: maxi-boop
+=======
+  cloudProjectId: 
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: 
+  organizationId: 
+>>>>>>> DatOneGuy011
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

@@ -6,6 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+=======
+    path: Assets/Scenes/Level_1.unity
+    guid: c37964fb289a84eab9259e017477b44f
+  - enabled: 1
+    path: Assets/Scenes/Level_2.unity
+    guid: db35185fc09724236a32c8e1ec779db3
+  - enabled: 1
+    path: Assets/Scenes/Level_3.unity
+    guid: 58a76a57968584927a2c840dfd396835
+>>>>>>> DatOneGuy011
   m_configObjects: {}
